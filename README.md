@@ -1,3 +1,3 @@
-# rsschool-cv
+<!-- # rsschool-cv -->
 
-https://theV1rTual.github.io/rsschool-cv/cv
+https://theV1rTual.github.io/rsschool-cv
