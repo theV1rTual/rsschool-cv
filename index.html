@@ -5,13 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
-        <p>
-            Hi, my name is Arystan. I am front-end developer from Kazakhstan, Almaty. Welcome to my GitHub account.
-            I am writing code using React
-        </p>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#education">Education</a></li>
+                <li class="nav-list-item"><a href="#technologies-tools">Technologies and Tools</a></li>
+                <li class="nav-list-item"><a href="#projects">Projects</a></li>
+                <li class="nav-list-item"><a href="#code-examples">Code examples</a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="img">
+                <img src="./img/ZQDdEjlTzA8.jpeg" alt="avatar" class="avatar">
+            </div>
+            <div class="header-description">
+                <h1>Amanzhol Arystan</h1>
+                <h2>Junior front-end developer</h2>
+                <p>
+                    I am a student from Almaty, Kazakhstan. I like programming and currently working as a front-end developer. Looking for remote office work, remote work and other projects
+                </p>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="left-side">
+                <section class="general-info"> 
+                    <h2 class="section-title">General info</h2>
+                    <ul>
+                        <li>
+                            <h2 class="info-description">Email: roadtogoooogle@gmail.com</h2>
+                        </li>
+                        <li>
+                            <h2 class="info-description">Phone: +7 707 885 6426</h2>
+                        </li>
+                        <li>
+                            <h2 class="info-description">Age: 21</h2>
+                        </li>
+                    </ul>
+                </section>    
+
+                <section class="education">
+                    <h2 class="section-title">KAZAKH-BRITISH TECHNICAL UNIVERSITY</h2>
+                    <p>Informational Technologies. Computing technology and software. GPA: 3.5 out of 4</p>
+                </section>
+
+                <section class="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>English: ielts 7.0</li>
+                        <li>Russian: advanced level</li>
+                        <li>Kazakh: native language</li>
+                    </ul>
+                </section>
+
+                <section class="code-example" id="code-examples">
+                    <h2 class="section-title">Code example</h2>
+                    <p>
+                        <code>
+                            function list(arr, value) { <br>
+                            let select = document.createElement('select');<br>
+                            body.appendChild(select);<br>
+                            if (value === undefined) {<br>
+                                value = 0;<br>
+                            }<br>
+     
+                            for(let i = 0; i > arr.length; i++) {   <br>
+                                option = document.createElement('option');  <br>
+                                option.innerHTML = arr[i].label; <br>
+                                option.setAttribute("value", arr[i].value); <br>
+                                option.setAttribute("label", arr[i].label) <br>
+                                select.appendChild(option); <br>
+                            }
+                            return select;
+                        }
+                        </code>
+                    </p>
+                </section>
+
+            </div>
+
+            <div class="right-side">
+                <section class="experience">
+                    <h2 class="section-title">Working experience</h2>
+                    <ul>
+                        <li>
+                            <h6>Morrison School: Mentor</h6>
+                            <p>May 2021 - June 2021</p>
+                            <p>Teaching children HTML, CSS, JS</p>
+                        </li>
+                        <li>
+                            <h6>CUBEWARE</h6>
+                            <p>June 2021 - now</p>
+                            <p>Making re-usable React components, Making layout due to the figma, Calling API</p>
+                        </li>
+                    </ul>
+                </section>  
+    
+                <section id="technologies-tools" class="technologies-tools">
+                    <h2 class="section-title">Tools and technologies</h2>
+                    <ul>
+                        <li>
+                            <h6>React</h6>
+                            <p>Clean code and re-usable components</p>
+                        </li>
+                        <li>
+                            <h6>Redux</h6>
+                            <p>Active changing of state management</p>
+                        </li>
+                        <li>
+                            <h6>SCSS</h6>
+                            <p>Styling using mixings, variables, classes</p>
+                        </li>
+                        <li>
+                            <h6>JavaScript/TypeScript</h6>
+                            <p>knowledge of es6 codestyle</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="projects" class="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul>
+                        <li>
+                            <h6><a href="https://github.com/theV1rTual/educational_projects/tree/main/react/social_network"> Social Network using React + Redux</a></h6>
+                        </li>
+                        <li>
+                            <h6><a href="https://github.com/theV1rTual/weblayout_practice">Making Layouts</a></h6>
+                        </li>
+                        <li>
+                            <h6><a href="https://github.com/theV1rTual/educational_projects/tree/main/react/test%20task/second/currency_converter">Currency converter</a></h6>
+                        </li>
+                        <li>
+                            <h6><a href="https://github.com/theV1rTual/JS_practice">JS Practice</a></h6>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <h2 class="footer-title">My GitHub: <a class="footer-link" href="https://github.com/theV1rTual">theV1rTual</a></h2>
+            <div class="footer-div">
+                <img class="footer-logo" src="https://app.rs.school/static/images/logo-rsschool3.png" alt="course-logo">
+                <p class="footer-description">This app was made 2022</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
