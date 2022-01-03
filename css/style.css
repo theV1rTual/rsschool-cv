@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  padding: 0;
+  font-size: 16px;
+  color: #363636;
+  background-color: #f1f1f1;
+  margin: 0px 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+  padding-top: 20px;
+}
+
+.header-description {
+  width: 70%;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 30%;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.avatar {
+  height: 250px;
+  border-radius: 130px;
+  margin-left: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.left-side {
+  margin-right: 50px;
+}
+
+.section-title {
+  font-size: 22px;
+  border-bottom: 1px solid blue;
+}
+
+#code-examples:active {
+  color: red;
+}
+
+.footer {
+  background-color: darkblue;
+  color: white;
+  padding-left: 30px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.footer-description {
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+.footer-logo {
+  height: 40px;
+}
